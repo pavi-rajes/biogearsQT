@@ -151,8 +151,6 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="biogearsqt.cpp" />
-    <ClCompile Include="D:\Biogears\Biogears_6.1\SDK\BioGears_6.1.0-beta\howto\cpp\BioGearsEngineHowTo.cpp" />
-    <ClCompile Include="D:\Biogears\Biogears_6.1\SDK\BioGears_6.1.0-beta\howto\cpp\HowTo-EngineUse.cpp" />
     <ClCompile Include="GeneratedFiles\Debug\moc_biogearsqt.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
@@ -214,7 +212,6 @@
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="D:\Biogears\Biogears_6.1\SDK\BioGears_6.1.0-beta\howto\cpp\BioGearsEngineHowTo.h" />
     <ClInclude Include="GeneratedFiles\ui_biogearsqt.h" />
   </ItemGroup>
   <ItemGroup>
