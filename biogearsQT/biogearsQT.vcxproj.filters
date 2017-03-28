@@ -50,6 +50,12 @@
     <ClCompile Include="GeneratedFiles\qrc_biogearsqt.cpp">
       <Filter>Generated Files</Filter>
     </ClCompile>
+    <ClCompile Include="D:\Biogears\Biogears_6.1\SDK\BioGears_6.1.0-beta\howto\cpp\BioGearsEngineHowTo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Biogears\Biogears_6.1\SDK\BioGears_6.1.0-beta\howto\cpp\HowTo-EngineUse.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="biogearsqt.h">
@@ -65,6 +71,9 @@
   <ItemGroup>
     <ClInclude Include="GeneratedFiles\ui_biogearsqt.h">
       <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Biogears\Biogears_6.1\SDK\BioGears_6.1.0-beta\howto\cpp\BioGearsEngineHowTo.h">
+      <Filter>Source Files</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

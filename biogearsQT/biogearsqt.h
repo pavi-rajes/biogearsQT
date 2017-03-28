@@ -2,6 +2,7 @@
 #define BIOGEARSQT_H
 
 #include <QtWidgets/QMainWindow>
+#include <QObject>
 #include "ui_biogearsqt.h"
 
 class biogearsQT : public QMainWindow
@@ -14,6 +15,9 @@ public:
 
 private:
 	Ui::biogearsQTClass ui;
+
+private slots:
+	void on_pushButton_clicked();
 };
 
 #endif // BIOGEARSQT_H
