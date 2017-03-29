@@ -3,11 +3,6 @@
 #include <QMessageBox>
 
 
-#include "BioGearsEngineHowTo.h"
-#include "engine/PhysiologyEngineTrack.h"
-#include "scenario/requests/SEDataRequest.h"
-#include "properties/SEScalarTime.h"
-
 int main(int argc, char *argv[])
 {
 	QApplication a(argc, argv);
@@ -17,5 +12,16 @@ int main(int argc, char *argv[])
 	QMessageBox msg;
 	msg.setText("main func is running");
 	msg.exec();
-	//HowToEngineUse();
+	//void Se();
+	
+	
+
 }
+
+//void Se()
+//{
+//	std::unique_ptr<PhysiologyEngine> bg = CreateBioGearsEngine("HowToEngineUse.log");
+//	QMessageBox message;
+//	message.setText("Biogears function is running");
+//	message.exec();
+//}

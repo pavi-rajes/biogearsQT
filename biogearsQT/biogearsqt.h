@@ -3,7 +3,7 @@
 
 #include <QtWidgets/QMainWindow>
 #include <QObject>
-#include "ui_biogearsqt.h"
+#include "GeneratedFiles\ui_biogearsqt.h"
 
 class biogearsQT : public QMainWindow
 {
@@ -12,9 +12,9 @@ class biogearsQT : public QMainWindow
 public:
 	biogearsQT(QWidget *parent = 0);
 	~biogearsQT();
-
-private:
 	Ui::biogearsQTClass ui;
+private:
+	//Ui::biogearsQTClass ui;
 
 private slots:
 	void on_pushButton_clicked();
