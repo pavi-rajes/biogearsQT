@@ -1,6 +1,7 @@
 #include "biogearsqt.h"
 #include <QLineEdit>
 #include <QMessageBox> 
+#pragma once
 
 biogearsQT::biogearsQT(QWidget *parent)
 	: QMainWindow(parent)
