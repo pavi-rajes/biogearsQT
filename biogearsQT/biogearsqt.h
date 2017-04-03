@@ -19,6 +19,7 @@ private:
 
 private slots:
 	void on_pushButton_clicked();
+
 };
 
 #endif // BIOGEARSQT_H
