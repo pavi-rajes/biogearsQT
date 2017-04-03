@@ -5,6 +5,7 @@
 #include <QObject>
 #include "GeneratedFiles\ui_biogearsqt.h"
 
+
 class biogearsQT : public QMainWindow
 {
 	Q_OBJECT
